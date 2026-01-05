@@ -31,3 +31,7 @@ Arrays and Linked Lists are both fundamental data structures, but they differ si
 ## Summary
 Arrays are efficient for random access but costly for insertions and deletions. Linked Lists are efficient for dynamic insertions and deletions but slower for random access. This project demonstrates these differences by simulating Linked List operations with Arduino and LEDs, making the abstract behavior visible and easier to understand.
 
+## Simulation Results and Conclusion
+Through this simulation, the insertion and deletion operations of a Linked List were successfully visualized using Arduino and LEDs. The LED states matched the output shown in the serial monitor, confirming that the physical behavior corresponded to the logical structure. This demonstrates that abstract data structures can be better understood when represented in a tangible way.
+## Future Work
+This approach can be extended to other data structures such as stacks and queues. Adding interactive controls (e.g., buttons for insertion and deletion) would make the simulation more engaging and educational. In the future, this project could serve as a teaching tool to help learners intuitively grasp the differences between arrays and linked lists.
