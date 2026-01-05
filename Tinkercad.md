@@ -4,7 +4,7 @@ In this project, we use this specific pattern of operations.
 ## Use parts
 - Arduino Uno, LED*4
 ## Code
-```text
+```cpp
 //C++
 
 struct Node{
