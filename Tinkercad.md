@@ -1,5 +1,5 @@
 # Simulate Linked list
-In this project, we use this specific pattern of operations.
+In this project, we use this specific pattern of operations.\n
 **(insert 1,2,3,4 and then delete 2)**
 ## Use parts
 - Arduino Uno, LED*4
@@ -104,6 +104,7 @@ void loop(){
 }
 ```
 ## result log
+```text
 Inserted: 1
 List:1 -> NULL
 Inserted: 2
@@ -114,3 +115,4 @@ Inserted: 4
 List:4 -> 3 -> 2 -> 1 -> NULL
 Deleted: 2
 List:4 -> 3 -> 1 -> NULL
+```
