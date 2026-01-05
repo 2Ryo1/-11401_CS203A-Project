@@ -116,3 +116,4 @@ List:4 -> 3 -> 2 -> 1 -> NULL
 Deleted: 2
 List:4 -> 3 -> 1 -> NULL
 ```
+3 Reconected to 1 after deleting 2.
