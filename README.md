@@ -5,8 +5,8 @@ When I first learned about Linked Lists, I found them more difficult to understa
 A Linked List is a fundamental data structure used to store a sequence of elements. Unlike arrays, which keep elements in contiguous memory locations, a Linked List organizes data into separate nodes.
 ### Node Structure
 Each node contains two parts:
-- **1.Data**  The actual value stored in the node.
-- **2.Pointer (Next)**  A reference to the next node in the sequence.
+- **Data**  The actual value stored in the node.
+- **Pointer (Next)**  A reference to the next node in the sequence.
 ### Head and Tail
 - The head is the first node in the list.
 - The tail is the last node, which points to NULL (indicating the end of the list).
