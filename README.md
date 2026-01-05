@@ -35,3 +35,4 @@ Arrays are efficient for random access but costly for insertions and deletions. 
 Through this simulation, the insertion and deletion operations of a Linked List were successfully visualized using Arduino and LEDs. The LED states matched the output shown in the serial monitor, confirming that the physical behavior corresponded to the logical structure. This demonstrates that abstract data structures can be better understood when represented in a tangible way.
 ## Future Work
 This approach can be extended to other data structures such as stacks and queues. Adding interactive controls (e.g., buttons for insertion and deletion) would make the simulation more engaging and educational. In the future, this project could serve as a teaching tool to help learners intuitively grasp the differences between arrays and linked lists.
+Overall, this project bridges theory and practice, showing how abstract data structures can be made intuitive through hardware simulation.
