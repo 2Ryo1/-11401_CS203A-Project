@@ -1,3 +1,6 @@
+# Simulate Linked list
+In this project, we use this specific pattern of operations.
+**(insert 1,2,3,4 and then delete 2)**
 ## Use parts
 - Arduino Uno, LED*4
 ## Code
@@ -52,7 +55,7 @@ void deleteNode(int value){
 void printList(){
   Node* temp = head;
   Serial.print("List:");
-  while(temp != NULL) {
+  while(temp != NULL){
     Serial.print(temp->data);
     Serial.print(" -> ");
     temp = temp->next;
@@ -80,7 +83,8 @@ void setup(){
     pinMode(i, OUTPUT);
   }
 }
-
+// In this project, we use this specific pattern of operations
+// (insert 1,2,3,4 and then delete 2).
 void loop(){
   updateLEDs();
   delay(2000);
@@ -99,3 +103,14 @@ void loop(){
   step++;
 }
 ```
+## result log
+Inserted: 1
+List:1 -> NULL
+Inserted: 2
+List:2 -> 1 -> NULL
+Inserted: 3
+List:3 -> 2 -> 1 -> NULL
+Inserted: 4
+List:4 -> 3 -> 2 -> 1 -> NULL
+Deleted: 2
+List:4 -> 3 -> 1 -> NULL
